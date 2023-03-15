@@ -3,7 +3,7 @@
 ## Repo Init ##
 
 ```bash
-repo init -u https://github.com/StatiXOS/android_kernel_manifest.git -b android-msm-xiaomi-4.19-android11
+repo init -u https://github.com/Dhruvgera/android_kernel_manifest -b master
 ```
 
 ## Sync Source ##
@@ -28,9 +28,9 @@ BUILD_CONFIG=build.config.xiaomi.${DEVICE_NAME} COMPILER=gcc BUILD_KERNEL=1 buil
 
 Example:
 
-For alioth with GCC
+For munch with GCC
 ```bash
-BUILD_CONFIG=build.config.xiaomi.alioth COMPILER=gcc BUILD_KERNEL=1 build/build.sh
+BUILD_CONFIG=build.config.xiaomi.munch COMPILER=gcc BUILD_KERNEL=1 build/build.sh
 ```
 
 ### Submitting Patches ###

@@ -38,5 +38,5 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="d82ade018dd655af90322bb8d6927aa2374dbdcb" clone-depth="1" />
 
   <!-- AnyKernel3 -->
-  <project path="ak3" name="mvaisakh/AnyKernel3" remote="github" revision="alioth" clone-depth="1" />
+  <project path="ak3" name="Dhruvgera/AnyKernel3" remote="github" revision="munch" clone-depth="1" />
 </manifest>

@@ -18,7 +18,7 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <!-- Xiaomi SM8250 Kernel -->
-  <project path="kernel/msm-4.19" name="mvaisakh/alioth" remote="github" revision="eva">
+  <project path="kernel/msm-4.19" name="Dhruvgera/RockstarKernel_munch" remote="github" revision="master">
     <linkfile dest="build.config.xiaomi.alioth" src="build.config.xiaomi.alioth" />
     <linkfile dest="build.config.xiaomi.apollo" src="build.config.xiaomi.apollo" />
     <linkfile dest="build.config.xiaomi.cas" src="build.config.xiaomi.cas" />
